@@ -19,6 +19,12 @@ module.exports = {
       fontFamily: {
         'scand': ['Scandinavian New','Helvetica Neue','Helvetica','Arial','sans-serif']
       },
+      backgroundImage: {
+        // 'hero1': "url('../public/images/sas-group.jpeg')",
+      },
+      spacing: {
+        '128': '32rem',
+      }
     },
   },
   plugins: [],
