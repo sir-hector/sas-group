@@ -1,10 +1,25 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'blue' : {
+          400: '#0059ce',
+          500: '#070099',
+          600: '#006',
+        },
+        white: colors.white,
+      },
+      fontFamily: {
+        'scand': ['Scandinavian New','Helvetica Neue','Helvetica','Arial','sans-serif']
+      },
+    },
   },
   plugins: [],
 }
